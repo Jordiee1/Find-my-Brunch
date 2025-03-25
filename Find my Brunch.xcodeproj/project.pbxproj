@@ -29,9 +29,33 @@
 		F403BCDC2D914D8700EB2A51 /* Find my BrunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find my BrunchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F403BD162D914EB600EB2A51 /* Exceptions for "Find my Brunch" folder in "Find my Brunch" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/MenuData.json,
+			);
+			target = F403BCC02D914D8300EB2A51 /* Find my Brunch */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		F403BD172D914EB600EB2A51 /* Exceptions for "Find my Brunch" folder in "Compile Sources" phase from "Find my Brunch" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = F403BCBD2D914D8300EB2A51 /* Sources */;
+			membershipExceptions = (
+				Data/MenuData.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F403BCC32D914D8300EB2A51 /* Find my Brunch */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F403BD162D914EB600EB2A51 /* Exceptions for "Find my Brunch" folder in "Find my Brunch" target */,
+				F403BD172D914EB600EB2A51 /* Exceptions for "Find my Brunch" folder in "Compile Sources" phase from "Find my Brunch" target */,
+			);
 			path = "Find my Brunch";
 			sourceTree = "<group>";
 		};
@@ -394,6 +418,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Find my Brunch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Find-my-Brunch-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Find my Brunch";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -431,6 +458,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Find my Brunch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Find-my-Brunch-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Find my Brunch";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

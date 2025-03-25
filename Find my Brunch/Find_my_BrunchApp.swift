@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct Find_my_BrunchApp: App {
+struct FindMyBrunchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
+
+

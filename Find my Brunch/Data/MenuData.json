@@ -1,0 +1,12 @@
+//
+//  MenuData.swift
+//  Find my Brunch
+//
+//  Created by จิดาภา สีเพชร on 24/3/2568 BE.
+//
+
+[
+  { "id": 1, "name": "ข้าวผัดกุ้ง", "category": "อาหารจานเดียว" },
+  { "id": 2, "name": "ก๋วยเตี๋ยวเรือ", "category": "อาหารเส้น" },
+  { "id": 3, "name": "ส้มตำ", "category": "อาหารอีสาน" }
+]
